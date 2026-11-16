@@ -1,0 +1,8 @@
+# What this port builds on: fetched at build time, never shipped.
+# Lua (MIT) 5.5.1, tag v5.5.1 (23 Jul 2026)
+LUA_GIT=https://github.com/lua/lua.git
+LUA_COMMIT=7579fc9d7ed90240487251dfb69168f8e64e9294
+LUA_VERSION=5.5.1
+# fpuauto (common/fpuauto): the FPU when there is one
+FPA_REPO=https://github.com/DalsinAI/amicradle-guest
+FPA_COMMIT=4a784c84b878fe0e9abade7006e67e1ded9b165c

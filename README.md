@@ -13,6 +13,9 @@ gives `C:lua` and `SYS:Docs/Lua/` (this ReadMe and Lua's licence).
 
 ## What it is
 
+- The `lua` command only. It is separate from GFOpenLua (`lua51.library`,
+  Lua 5.1 shared as a library for game ports), and shares nothing with it.
+
 - Lua 5.5.1 from lua/lua at tag v5.5.1 (lua.lock), fetched at build time;
   nothing third-party is kept here.
 - 68040, soft float with fpuauto (the FPU when there is one, so an LC040
